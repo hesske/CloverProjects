@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="hesske" created="Tue Nov 21 16:24:27 CST 2017" guiVersion="4.7.0" id="1511304163163" licenseCode="CLP1DTULSA60490010EX" name="new-graph" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0">
+<Record fieldDelimiter=";" name="CC" recordDelimiter="\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1">
+<Record fieldDelimiter=";" name="CC" recordDelimiter="\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata27" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="," name="outputdata" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field length="12" name="DISTRICT_USER_ID" scale="2" trim="true" type="string"/>
+<Field name="SPS_ID" type="string"/>
+<Field name="PREFIX" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="TITLE" type="string"/>
+<Field name="SUFFIX" type="string"/>
+<Field name="EMAIL" size="50" type="string"/>
+<Field name="USER_NAME" type="string"/>
+<Field name="PASSWORD" type="string"/>
+<Field delimiter="," name="SCHOOL_NAME" type="string"/>
+<Field name="CLASS_NAME" type="string"/>
+<Field name="LAST_COL" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata8">
+<Record fieldDelimiter="|" name="recordName1" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata26">
+<Record fieldDelimiter="," name="recordName10" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHER_NUMBER" size="20" type="string"/>
+<Field name="SRITypeID" trim="true" type="integer"/>
+<Field name="TEACHERID" type="decimal"/>
+<Field delimiter="," name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" trim="true" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata9">
+<Record fieldDelimiter="|" name="recordName2" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata10">
+<Record fieldDelimiter="|" name="recordName3" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata18">
+<Record fieldDelimiter="|" name="recordName4" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="ID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" trim="true" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" trim="true" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" trim="true" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" trim="true" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" trim="true" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" trim="true" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" trim="true" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" trim="true" type="decimal"/>
+<Field name="SRICourse" type="string"/>
+<Field name="SRITypeID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="integer"/>
+<Field name="CourseDesc" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata12" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="|" name="recordName5" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="ID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" trim="true" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" trim="true" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" trim="true" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" trim="true" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" trim="true" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" trim="true" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" trim="true" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" trim="true" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata13" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="|" name="recordName6" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="ID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" trim="true" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" trim="true" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" trim="true" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" trim="true" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" trim="true" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" trim="true" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" trim="true" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" trim="true" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata14">
+<Record fieldDelimiter="|" name="recordName7" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" type="decimal"/>
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata19">
+<Record fieldDelimiter="|" name="recordName8" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field length="10" name="DCID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="ID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="STUDENTID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="SECTIONID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATEENROLLED" trim="true" type="date"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="PERIOD_OBSOLETE" size="7" type="string"/>
+<Field length="10" name="ATTENDANCE_TYPE_CODE" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED2" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTABSENCES" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="CURRENTTARDIES" scale="0" trim="true" type="decimal"/>
+<Field name="ATTENDANCE" type="string"/>
+<Field length="10" name="TEACHERID" scale="0" trim="true" type="decimal"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTGRADEUPDATE" trim="true" type="date"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field length="10" name="ORIGSECTIONID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="UNUSED3" scale="0" trim="true" type="decimal"/>
+<Field name="TEACHERCOMMENT" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="LASTATTMOD" trim="true" type="date"/>
+<Field name="ASMTSCORES" type="string"/>
+<Field format="yyyy-MM-dd HH:mm:ss" name="FIRSTATTDATE" trim="true" type="date"/>
+<Field name="FINALGRADES" type="string"/>
+<Field length="10" name="STUDYEAR" scale="0" trim="true" type="decimal"/>
+<Field name="LOG" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="CUSTOM" type="string"/>
+<Field name="STUDENTSECTENRL_GUID" size="32" type="string"/>
+<Field name="TEACHERPRIVATENOTE" type="string"/>
+<Field name="AB_COURSE_CMP_FUN_FLG" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_EXT_CRD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_MET_CD" size="4" type="string"/>
+<Field name="AB_COURSE_EVA_PRO_CD" size="2" type="string"/>
+<Field name="AB_COURSE_CMP_STA_CD" size="3" type="string"/>
+<Field name="PSGUID" size="50" type="string"/>
+<Field name="SRICourse" type="string"/>
+<Field name="CourseDesc" type="string"/>
+<Field name="SRITypeID" trim="true" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" trim="true" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata20">
+<Record fieldDelimiter="|" name="recordName9" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHER_NUMBER" size="20" type="string"/>
+<Field name="SRITypeID" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata23" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="," name="recordName9_1" previewAttachmentCharset="UTF-8" recordDelimiter="\r\n" type="delimited">
+<Field format="yyyy-MM-dd HH:mm:ss" name="DATELEFT" trim="true" type="date"/>
+<Field length="10" name="SCHOOLID" scale="0" trim="true" type="decimal"/>
+<Field length="10" name="TERMID" scale="0" trim="true" type="decimal"/>
+<Field name="SECTION_NUMBER" size="10" type="string"/>
+<Field name="COURSE_NUMBER" size="11" type="string"/>
+<Field name="EXPRESSION" size="80" type="string"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHER_NUMBER" size="20" type="string"/>
+<Field name="SRITypeID" trim="true" type="integer"/>
+<Field name="TEACHERID" type="decimal"/>
+<Field delimiter="," name="NAME" size="60" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5">
+<Record fieldDelimiter=";" name="SCHOOLS" recordDelimiter="\n" type="delimited">
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata24">
+<Record fieldDelimiter=";" name="SCHOOLS1" previewAttachmentCharset="UTF-8" recordDelimiter="\n" type="delimited">
+<Field length="10" name="ID" scale="0" trim="true" type="decimal"/>
+<Field name="NAME" size="60" type="string"/>
+<Field name="ADDRESS" type="string"/>
+<Field length="10" name="SCHOOL_NUMBER" scale="0" trim="true" type="decimal"/>
+<Field name="Enroll" trim="true" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata25">
+<Record fieldDelimiter="|" name="SQL" recordDelimiter="\r\n" type="delimited">
+<Field name="Statement" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata6">
+<Record fieldDelimiter="," name="SRICourses" previewAttachment="G:/My Drive/CloverETL Source Files/SRICourses.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="integer"/>
+<Field name="SRITypeID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata11">
+<Record fieldDelimiter="," name="SRICourses" previewAttachment="H:/My Drive/CloverETL Source Files/SRICourses.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="integer"/>
+<Field name="SRITypeID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata17">
+<Record fieldDelimiter="," name="SRICourses_1" previewAttachment="H:/My Drive/CloverETL Source Files/SRICourses.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="string"/>
+<Field name="SRITypeID" type="string"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata7">
+<Record fieldDelimiter="," name="SRILevel" previewAttachment="G:/My Drive/CloverETL Source Files/SRILevel.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRILevelID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevel" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3">
+<Record fieldDelimiter="," name="tblMathCourses" previewAttachment="G:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="integer"/>
+<Field name="CourseDesc" type="string"/>
+<Field name="SRITypeID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata15">
+<Record fieldDelimiter="," name="tblMathCourses" previewAttachment="H:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="string"/>
+<Field name="CourseDesc" type="string"/>
+<Field name="SRITypeID" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata16" previewAttachment="H:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="," name="tblMathCourses_1" previewAttachment="H:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="string"/>
+<Field name="CourseDesc" type="string"/>
+<Field name="SRITypeID" trim="true" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" trim="true" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata21" previewAttachment="H:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8">
+<Record fieldDelimiter="," name="tblMathCourses_2" previewAttachment="H:/My Drive/CloverETL Source Files/tblMathCourses.csv" previewAttachmentCharset="UTF-8" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SRICourse" type="string"/>
+<Field name="CourseDesc" type="string"/>
+<Field name="SRITypeID" trim="true" type="integer"/>
+<Field eofAsDelimiter="true" name="SRILevelID" trim="true" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata2">
+<Record fieldDelimiter="," name="tblSites" previewAttachment="G:/My Drive/CloverETL Source Files/tblSites.csv" previewAttachmentCharset="UTF-8" quoteChar="both" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="SiteID" type="integer"/>
+<Field name="SiteNumber" type="integer"/>
+<Field name="Track" type="string"/>
+<Field name="SchoolDep" type="string"/>
+<Field name="Abb" type="string"/>
+<Field name="SRIName" type="string"/>
+<Field name="CurSite" type="integer"/>
+<Field name="AreaID" type="integer"/>
+<Field name="KindID" type="integer"/>
+<Field name="Title1" type="integer"/>
+<Field name="SchdTypeID" type="integer"/>
+<Field name="Enroll" type="boolean"/>
+<Field name="SCt" type="integer"/>
+<Field eofAsDelimiter="true" name="IsRC" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4">
+<Record fieldDelimiter=";" name="TEACHERS" recordDelimiter="\n" type="delimited">
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHERNUMBER" size="20" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata22">
+<Record fieldDelimiter=";" name="TEACHERS" previewAttachmentCharset="UTF-8" recordDelimiter="\n" type="delimited">
+<Field length="10" name="ID" scale="0" type="decimal"/>
+<Field name="LASTFIRST" size="40" type="string"/>
+<Field name="FIRST_NAME" size="20" type="string"/>
+<Field name="LAST_NAME" size="20" type="string"/>
+<Field length="10" name="SCHOOLID" scale="0" type="decimal"/>
+<Field name="EMAIL_ADDR" size="50" type="string"/>
+<Field name="TEACHER_NUMBER" size="20" type="string"/>
+<Field length="10" name="STATUS" scale="0" type="decimal"/>
+</Record>
+</Metadata>
+<Connection database="ORACLE" dbURL="jdbc:oracle:thin:@10.2.6.20:1521/PSPRODDB" id="JDBC0" jdbcSpecific="ORACLE" name="PS Connection" password="tUlsaps09" type="JDBC" user="psnavigator"/>
+<GraphParameters>
+<GraphParameterFile fileURL="workspace.prm"/>
+</GraphParameters>
+<LookupTable charset="UTF-8" fileURL="G:/My Drive/CloverETL Source Files/tblSites.csv" id="LookupTable0" initialSize="512" key="SiteNumber" metadata="Metadata2" name="simpleLookup0" type="simpleLookup"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node guiName="DateLeft Filter" guiX="-368" guiY="197" id="DATE_LEFT_FILTER" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$0.DATELEFT > today()]]></attr>
+</Node>
+<Node dedupKey="TEACHERID(a);COURSE_NUMBER(a);SECTION_NUMBER(a)" guiName="Dedup" guiX="-12" guiY="149" id="DEDUP" noDupRecord="1" type="DEDUP"/>
+<Node guiName="Denormalizer" guiX="-723" guiY="197" id="DENORMALIZER" type="DENORMALIZER">
+<attr name="denormalize"><![CDATA[//#CTL2
+// This transformation defines the way in which multiple input records 
+// (with the same key) are denormalized into one output record. 
+string[] id;
+// This function is called for each input record from a group of records
+// with the same key.
+function integer append() {
+
+append (id, $in.0.SRICourse);
+	return OK;
+}
+
+// This function is called once after the append() function was called for all records
+// of a group of input records defined by the key.
+// It creates a single output record for the whole group.
+function integer transform() {
+	$out.0.Statement='select $ID:="PS"."CC"."ID",$STUDENTID:="PS"."CC"."STUDENTID",$SECTIONID:="PS"."CC"."SECTIONID",$DATELEFT:="PS"."CC"."DATELEFT",$SCHOOLID:="PS"."CC"."SCHOOLID",$TERMID:="PS"."CC"."TERMID",$TEACHERID:="PS"."CC"."TEACHERID",$SECTION_NUMBER:="PS"."CC"."SECTION_NUMBER",$COURSE_NUMBER:="PS"."CC"."COURSE_NUMBER" from "PS"."CC"';
+$out.0.Statement=$out.0.Statement+' where COURSE_NUMBER in('+join(",", id)+')';
+	return OK;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if append() throws an exception.
+// function integer appendOnError(string errorMessage, string stackTrace) {
+// }
+
+// Called only if transform() throws an exception.
+//function integer transformOnError(string errorMessage, string stackTrace) {
+//}
+
+// Called after transform() to return the resources that have been used to their initial state
+// so that next group of records with different key may be parsed.
+// function void clean() {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node guiName="ExtSort" guiX="-198" guiY="184" id="EXT_SORT" sortKey="TEACHERID(a);COURSE_NUMBER(a);SECTION_NUMBER(a)" type="EXT_SORT"/>
+<Node append="true" fileURL="G:/My Drive/Clover SRI Output Files/teachers.csv" guiName="FlatFileWriter" guiX="696" guiY="15" id="FLAT_FILE_WRITER" outputFieldNames="true" type="FLAT_FILE_WRITER"/>
+<Node guiName="Join on Schools/Teachers" guiX="314" guiY="7" id="JOIN_ON_SCHOOLS_TEACHERS" joinKey="$ID=$TEACHERID#$SCHOOLID=$SCHOOL_NUMBER" slaveDuplicates="true" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.SCHOOLID = $in.2.SCHOOL_NUMBER;
+	$out.0.DATELEFT = $in.1.DATELEFT;
+	$out.0.TERMID = $in.1.TERMID;
+	$out.0.SECTION_NUMBER = $in.1.SECTION_NUMBER;
+	$out.0.COURSE_NUMBER = $in.1.COURSE_NUMBER;
+	$out.0.EXPRESSION = $in.1.EXPRESSION;
+	$out.0.SRITypeID = $in.1.SRITypeID;
+	$out.0.LASTFIRST = $in.0.LASTFIRST;
+	$out.0.FIRST_NAME = $in.0.FIRST_NAME;
+	$out.0.LAST_NAME = $in.0.LAST_NAME;
+	$out.0.EMAIL_ADDR = $in.0.EMAIL_ADDR;
+	$out.0.TEACHER_NUMBER = $in.0.TEACHER_NUMBER;
+	$out.0.TEACHERID = $in.0.ID;
+	$out.0.NAME = $in.2.NAME;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node guiName="LookupJoin" guiX="175" guiY="287" id="LOOKUP_JOIN" joinKey="SCHOOL_NUMBER" lookupTable="LookupTable0" type="LOOKUP_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.SCHOOL_NUMBER = $in.1.SiteNumber;
+	$out.0.Enroll = $in.1.Enroll;
+	$out.0.NAME = $in.1.SRIName;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node guiName="NullEmail Filter" guiX="447" guiY="263" id="NULL_EMAIL_FILTER" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$in.0.EMAIL_ADDR!=null]]></attr>
+</Node>
+<Node guiName="Output formatter" guiX="637" guiY="263" id="OUTPUT_FORMATTER" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.DISTRICT_USER_ID = $in.0.TEACHER_NUMBER;
+	$out.0.FIRST_NAME = $in.0.FIRST_NAME;
+	$out.0.LAST_NAME = $in.0.LAST_NAME;
+	$out.0.EMAIL = lowerCase($in.0.EMAIL_ADDR);
+		
+	$out.0.USER_NAME = lowerCase(replace($in.0.EMAIL_ADDR, "@(\\w+.\\w+)", " "));
+
+	$out.0.PASSWORD = $in.0.TEACHER_NUMBER;
+	$out.0.SCHOOL_NAME = $in.0.NAME;
+	$out.0.CLASS_NAME = concatWithSeparator('.', lowerCase(replace($in.0.EMAIL_ADDR, "@(\\w+.\\w+)", " ")), $in.0.COURSE_NUMBER, $in.0.SECTION_NUMBER);
+	$out.0.LAST_COL = "Y";
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node guiName="Output Sort" guiX="630" guiY="136" id="OUTPUT_SORT" sortKey="SCHOOL_NAME(a);EMAIL(a)" type="FAST_SORT"/>
+<Node dbConnection="JDBC0" fetchSize="20000" guiName="PS_CC Table" guiX="-555" guiY="197" id="PS_CC_TABLE" type="DB_INPUT_TABLE" url="port:$0.Statement:discrete">
+<attr name="sqlQuery"><![CDATA[
+
+
+]]></attr>
+</Node>
+<Node dbConnection="JDBC0" guiName="PS_Schools Table" guiX="-12" guiY="230" id="PS_SCHOOLS_TABLE" type="DB_INPUT_TABLE">
+<attr name="sqlQuery"><![CDATA[select "PS"."SCHOOLS"."ID","PS"."SCHOOLS"."NAME","PS"."SCHOOLS"."ADDRESS","PS"."SCHOOLS"."SCHOOL_NUMBER"
+from "PS"."SCHOOLS"]]></attr>
+</Node>
+<Node dbConnection="JDBC0" guiName="PS_Teachers Table" guiX="38" guiY="7" id="PS_TEACHERS_TABLE" type="DB_INPUT_TABLE">
+<attr name="sqlQuery"><![CDATA[select "PS"."TEACHERS"."ID",UPPER("PS"."TEACHERS"."LASTFIRST"), UPPER("PS"."TEACHERS"."FIRST_NAME"),UPPER("PS"."TEACHERS"."LAST_NAME"),"PS"."TEACHERS"."SCHOOLID","PS"."TEACHERS"."EMAIL_ADDR","PS"."TEACHERS"."TEACHERNUMBER", "PS"."TEACHERS"."STATUS"
+from "PS"."TEACHERS"
+where "PS"."TEACHERS"."STATUS" = 1
+
+]]></attr>
+</Node>
+<Node guiName="Schools Filter" guiX="175" guiY="184" id="SCHOOLS_FILTER" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$in.0.Enroll]]></attr>
+</Node>
+<Node guiName="SRITypeID Filter" guiX="-922" guiY="197" id="SRITYPE_ID_FILTER" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$in.0.SRITypeID==4]]></attr>
+</Node>
+<Node fileURL="G:/My Drive/CloverETL Source Files/tblMathCourses.csv" guiName="SRI Courses" guiX="-943" guiY="36" id="SRI_COURSES" type="DATA_READER"/>
+<Node guiName="SRI Type Filter" guiX="447" guiY="164" id="SRI_TYPE_FILTER" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$in.0.SRITypeID!=4]]></attr>
+</Node>
+<Edge fromNode="DATE_LEFT_FILTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge12" inPort="Port 0 (in)" metadata="Metadata19" outPort="Port 0 (accepted)" toNode="EXT_SORT:0"/>
+<Edge fromNode="DEDUP:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 1 (slave)" metadata="Metadata19" outPort="Port 0 (unique)" toNode="JOIN_ON_SCHOOLS_TEACHERS:1"/>
+<Edge fromNode="DENORMALIZER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata25" outPort="Port 0 (out)" toNode="PS_CC_TABLE:0"/>
+<Edge debugMode="all" fromNode="EXT_SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (in)" metadata="Metadata19" outPort="Port 0 (out)" toNode="DEDUP:0"/>
+<Edge fromNode="JOIN_ON_SCHOOLS_TEACHERS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge15" inPort="Port 0 (in)" metadata="Metadata26" outPort="Port 0 (out)" toNode="SRI_TYPE_FILTER:0"/>
+<Edge fromNode="LOOKUP_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata24" outPort="Port 0 (joined records)" toNode="SCHOOLS_FILTER:0"/>
+<Edge fromNode="NULL_EMAIL_FILTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge16" inPort="Port 0 (in)" outPort="Port 0 (accepted)" toNode="OUTPUT_FORMATTER:0"/>
+<Edge fromNode="OUTPUT_FORMATTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata27" outPort="Port 0 (out)" toNode="OUTPUT_SORT:0"/>
+<Edge fromNode="OUTPUT_SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge10" inPort="Port 0 (in)" outPort="Port 0 (out)" toNode="FLAT_FILE_WRITER:0"/>
+<Edge fromNode="PS_CC_TABLE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata19" outPort="Port 0 (out)" toNode="DATE_LEFT_FILTER:0"/>
+<Edge fromNode="PS_SCHOOLS_TABLE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge18" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="LOOKUP_JOIN:0"/>
+<Edge debugMode="all" fromNode="PS_TEACHERS_TABLE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (driver)" metadata="Metadata22" outPort="Port 0 (out)" toNode="JOIN_ON_SCHOOLS_TEACHERS:0"/>
+<Edge fromNode="SCHOOLS_FILTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 2 (slave)" outPort="Port 0 (accepted)" toNode="JOIN_ON_SCHOOLS_TEACHERS:2"/>
+<Edge fromNode="SRITYPE_ID_FILTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" outPort="Port 0 (accepted)" toNode="DENORMALIZER:0"/>
+<Edge fromNode="SRI_COURSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata16" outPort="Port 0 (output)" toNode="SRITYPE_ID_FILTER:0"/>
+<Edge fromNode="SRI_TYPE_FILTER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge20" inPort="Port 0 (in)" outPort="Port 0 (accepted)" toNode="NULL_EMAIL_FILTER:0"/>
+</Phase>
+</Graph>
